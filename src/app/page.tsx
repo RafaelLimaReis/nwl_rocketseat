@@ -1,8 +1,8 @@
 import { ArrowRight, Mail, Radio, User } from 'lucide-react'
 import Image from 'next/image'
 import logo from '../assets/logo.svg'
-import { Button } from './componets/button'
-import { InputField, InputIcon, InputRoot } from './componets/input'
+import { Button } from './components/button'
+import { InputField, InputIcon, InputRoot } from './components/input'
 
 export default function Home() {
     return (
@@ -31,7 +31,7 @@ export default function Home() {
                                 AO VIVO
                             </span>
                         </div>
-                        <p className="text-gray-300 leading-relaxed text-sm md: text-base">
+                        <p className="text-gray-300 leading-relaxed text-sm md:text-base">
                             Um evento feito por e para pessoas desenvolvedoras
                             apaixonadas por criar soluções inovadoras e
                             compartilhar conhecimento. Vamos mergulhar nas
